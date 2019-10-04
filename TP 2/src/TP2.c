@@ -36,14 +36,11 @@ mainMenu(&option);
 switch(option)
 {
 case 1:
-	if(fRuns==0)							//checks if Employees Array already initialized
+	if(fRuns==0)							
 	{
 	initEmployees(listaEmpleados,LIMITE);
 	fRuns=1;
 	}
-
-	cargarValores(listaEmpleados);
-
 	do{
 	getStr(name,LIMSTR,"ingrese nombre.");
 	}while(isValidAlphabetic(name)!=0);
