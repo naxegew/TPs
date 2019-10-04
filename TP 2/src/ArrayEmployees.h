@@ -31,5 +31,4 @@ int totalSalary(Employee list[],int length,float *pTotalSalary);
 int employeeCounter(Employee list[], int length, int *pCountEmployee);
 int employeesAverageSalary(Employee list[],int lenght,float *pTotalSalary,int *pCountEmployees, float *pAverSalary);
 
-int cargarValores(Employee lista[]);
 #endif /* ARRAYEMPLOYEES_H_ */
